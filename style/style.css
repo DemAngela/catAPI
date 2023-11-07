@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+}
+
+.wrapper {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {
+    width: 400px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: end;
+}
+
+.picture {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.likeBTN {
+    background-color: #3ad33a;
+}
+
+.nopeBTN {
+    background-color: #ec3535;
+}
+
+span {
+    margin-left: 110px;
+    margin-right: 40px;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+
